@@ -296,7 +296,7 @@
         window.addEventListener('scroll',function(){
             let header = document.querySelector("#navbar");
             header.classList.toggle("sticky",window.scrollY > 0);
-
+            /*
             let content = document.querySelector('.js-scroll');
             let contentPosition = content.getBoundingClientRect().top;
             let screentPosition = window.innerHeight;
@@ -305,9 +305,10 @@
             } else{
                 content.classList.remove('scrolled');
             }
+        */
         });
 
-        /*Animación para las cards
+        /*Animación para las cards*/
         const scrollElements = document.querySelectorAll(".js-scroll");
 
         const elementInView = (el, dividend = 1) => {
