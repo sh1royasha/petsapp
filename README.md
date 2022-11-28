@@ -1,2 +1,1 @@
-# petsapp
-aplicación para adoptar mascotas
+# Veterinaria
